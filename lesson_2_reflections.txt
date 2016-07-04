@@ -1,3 +1,28 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	It creates a .git file in the directory, but not a commit.
+	It creates a .git file in the directory, but not a commit. You have to do this in order to create .git file that will track all the changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The working directory is where the files reside on the users machine, and the repository is the cloud where the files are accessible to other users and shares. The staging area is a holding area for the files that will be shared, but have not yet been committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can use the command git diff --staged to see the difference from the file in the staging area with commit 1 in the git repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	I think whenever I would want to try to make sweeeping changes in approach, or when wanting to see what happens if I make large changes to the file or files. If you had different code for different OS's seems a good idea to create new branches. Especially good if your master program works, so you don't want to mess it up.
+
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams allow you to see the detached head state, and also see the history of each branch. You could in fact reconstruct the entire creation process if you mapped out the entire system.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When two branches are merged it brings the two areas of changes together to bring the software up to date. The diagram shows the commits of both branches merged together and the commits are listed in chronological order. Use git show to see changes from prior version of any file in the log.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's automatic merge is much faster than updating the code manually. It is nice that it gives you a warning before merging. There was one thing funny though, I did not get the conflict of the merge. I either lost some changes from having to reinstall or I did it prior to the lesson. I should try a merge in the near future.
+
