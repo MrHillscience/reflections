@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	The diff command only shows the lines that are different and if there are any typos in the new version they are much easier to locate since normally much of the code would be the same between versions.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term? 
+
+	If you changed your mind after trying some new code, you could easily go back to the old way. I usually comment out the things when I try something new, but this would be more efficient. It could also be useful to see how much you have improved over time.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved like Google Docs does?
+
+	Manual saving (like in the old day) gives the user control to save changes at logical points whereas automatic saves are likely to be way too many to be practical, the user could not say what they changed, so there would be no rhyme nor reason to the various versions. Trust users, you only forget to save a few times before you start to remember.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	A single program could be made up of 100's of files so it would be imperative that in order to run correctly all the files must be the version that works. For Google Docs, each file is stand alone, so there is not a reason to save every doc, whenever you edit one doc.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log gives a number for each version saved of all the files in a project. diff oldfile newfile shows all the changes. This permits and helps tremendously with debugging and would also greatly facilitate multiple users on program creation.
+
+How might using version control make you more confident to make changes that could break something?
+
+	With version control, you can always just go back to the prior working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to use it to create a simple app from Google Cloud Platform class that I am trying to take. This has helped me understand so much that was vague, and made vague what was unknown.
+
+log
